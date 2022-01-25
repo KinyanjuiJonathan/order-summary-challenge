@@ -1,0 +1,54 @@
+
+.container{
+    width: 100%;
+    height: 100%;
+     display: flex;
+     justify-content: center;
+}
+.main{
+  
+    width: 60%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.blue{
+    width: 100%;
+    height: 40%;
+    
+}
+
+.blue img{
+    width: 100%;
+    height: 100%;
+}
+.white{
+    background-color: white;
+
+}
+.mid_text{
+    display: flex;
+    justify-content: center;
+}
+.Annual_plan{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(240, 226, 210);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    cursor: pointer;
+    margin: 40px;
+}
+.proceed{
+    color: white;
+    background-color: blue;
+    width:fit-content
+    
+}
